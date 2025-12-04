@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.section-1 h1 {
+  width: 59vw;
+  height: 9.5vw;
+  font-size: 8.8vw;
+  font-family: "Marvin Visions";
+  color: #f4e4c3;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  z-index: 5;
+}
+
+.section-1 {
+  width: 100vw;
+  height: 39.4vw;
+  overflow: hidden;
+  background-color: #ea7d9c;
+}
+
+.container-1 {
+  width: 100vw;
+  height: 39.4vw;
+  position: absolute;
+  max-width: 100%;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.star_1 {
+  position: absolute;
+  width: 19.6vw;
+  height: 39.4vw;
+  background-image: url(../images/star_1.svg);
+  left: 80.3vw;
+}
+
+.star_2 {
+  position: absolute;
+  width: 25vw;
+  height: 39.4vw;
+  background-image: url(../images/star_2.svg);
+  background-repeat: no-repeat;
+}
+
+.bottle1 {
+  position: absolute;
+  width: 9.8vw;
+  height: 9vw;
+  background-image: url(../images/bottle1.svg);
+  left: 24vw;
+}
+.bread1 {
+  position: absolute;
+  width: 22vw;
+  height: 22vw;
+  background-image: url(../images/bread1.svg);
+  left: 9vw;
+  top: 21vw;
+}
+.bread2 {
+  position: absolute;
+  width: 22vw;
+  height: 22vw;
+  background-image: url(../images/bread2.svg);
+  left: 53vw;
+  top: 1.5vw;
+  background-repeat: no-repeat;
+}
+.chip1 {
+  position: absolute;
+  width: 5.2vw;
+  height: 5.2vw;
+  background-image: url(../images/chip1.svg);
+  left: 14vw;
+  top: 1.3vw;
+}
+.chip2 {
+  position: absolute;
+  width: 7vw;
+  height: 7vw;
+  background-image: url(../images/chip2.svg);
+  left: 5vw;
+  top: 2vw;
+}
+.chip3 {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  background-image: url(../images/chip3.svg);
+  left: 44.8vw;
+  top: 7vw;
+}
+.chip4 {
+  position: absolute;
+  width: 7.5vw;
+  height: 7.5vw;
+  background-image: url(../images/chip4.svg);
+  left: 57.2vw;
+  top: 29.5vw;
+}
+.dice {
+  position: absolute;
+  width: 7.5vw;
+  height: 9.3vw;
+  background-image: url(../images/dice.svg);
+  left: 36.3vw;
+  top: 24.7vw;
+}
+
+.section-2 {
+  width: 100vw;
+  height: 17.5vw;
+  background-color: #f4e4c3;
+}
+
+.liner_product {
+  position: relative;
+  width: 100vw;
+  height: 12.8vw;
+  background-image: url(../images/liner_product.svg);
+  top: 3vw;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: 0 0;
+  overflow: hidden;
+}
