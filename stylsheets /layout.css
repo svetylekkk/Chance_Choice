@@ -18,16 +18,16 @@ html {
 }
 
 .section-1 {
-  width: 100vw;
+  width: 100%;
   height: 39.4vw;
   overflow: hidden;
   background-color: #ea7d9c;
 }
 
 .container-1 {
-  width: 100vw;
+  width: 100%;
   height: 39.4vw;
-  position: absolute;
+  position: relative;
   max-width: 100%;
   top: 0;
   overflow: hidden;
@@ -58,6 +58,8 @@ html {
   height: 9vw;
   background-image: url(../images/bottle1.svg);
   left: 24vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .bread1 {
   position: absolute;
@@ -66,6 +68,8 @@ html {
   background-image: url(../images/bread1.svg);
   left: 9vw;
   top: 21vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .bread2 {
   position: absolute;
@@ -75,6 +79,7 @@ html {
   left: 53vw;
   top: 1.5vw;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .chip1 {
   position: absolute;
@@ -83,6 +88,8 @@ html {
   background-image: url(../images/chip1.svg);
   left: 14vw;
   top: 1.3vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .chip2 {
   position: absolute;
@@ -91,6 +98,8 @@ html {
   background-image: url(../images/chip2.svg);
   left: 5vw;
   top: 2vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .chip3 {
   position: absolute;
@@ -99,6 +108,8 @@ html {
   background-image: url(../images/chip3.svg);
   left: 44.8vw;
   top: 7vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .chip4 {
   position: absolute;
@@ -107,6 +118,8 @@ html {
   background-image: url(../images/chip4.svg);
   left: 57.2vw;
   top: 29.5vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .dice {
   position: absolute;
@@ -115,17 +128,19 @@ html {
   background-image: url(../images/dice.svg);
   left: 36.3vw;
   top: 24.7vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .section-2 {
-  width: 100vw;
+  width: 100%;
   height: 17.5vw;
   background-color: #f4e4c3;
 }
 
 .liner_product {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 12.8vw;
   background-image: url(../images/liner_product.svg);
   top: 3vw;
@@ -133,4 +148,167 @@ html {
   background-size: auto 100%;
   background-position: 0 0;
   overflow: hidden;
+}
+.box1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 39.4vw;
+}
+.section-3 {
+  position: relative;
+  width: 40vw;
+  height: 57vw;
+  overflow: hidden;
+  background-color: #f79c05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star1 {
+  position: absolute;
+  width: 16vw;
+  height: 16vw;
+  background-image: url(../images/Star1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 41vw;
+  right: 22vw;
+}
+.star2 {
+  position: absolute;
+  width: 16vw;
+  height: 16vw;
+  background-image: url(../images/Star2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 22vw;
+  bottom: 41vw;
+}
+.corza {
+  width: 34.375vw;
+  height: 40.625vw;
+  background-image: url(../images/corza.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+
+.section-4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 57vw;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 62vw;
+  height: 31vw;
+}
+
+.dice_pink {
+  width: 32vw;
+  height: 30vw;
+  flex-shrink: 0;
+  background-color: #2ca66c;
+}
+.dice_pink_svg {
+  width: 14.5vw;
+  height: 18.2vw;
+  background-image: url(../images/dice_pink_svg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chipstar {
+  width: 30vw;
+  height: 30vw;
+  flex-shrink: 0;
+  background-color: #f79c05;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice_pink,
+.chipstar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chipstar01 {
+  width: 23vw;
+  height: 23vw;
+  background-image: url(../images/chipstar01.svg);
+  z-index: 2;
+}
+
+.chipstar02 {
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../images/chipstar02.svg);
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chipstar01,
+.chipstar01-01,
+.chipstar01-02 {
+  position: absolute;
+  width: 23vw;
+  height: 23vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+  opacity: 0;
+}
+
+.sale {
+  width: 62vw;
+  height: 28vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #f4e4c3;
+  border: 2vw solid #e3562b;
+  border-radius: 0.5vw;
+}
+
+.saletext {
+  font-size: 17vw;
+  font-family: "Marvin Visions";
+  color: #e3562b;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+}
+.box3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 57vw;
+}
+.section-5 {
+  position: relative;
+  width: 60vw;
+  height: 57vw;
+  background-color: #f4e4c3;
+  display: flex;
+}
+
+.section-6 {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 57vw;
+  background-color: #ea7d9c;
 }
