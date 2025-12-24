@@ -30,11 +30,11 @@
 
 @keyframes fall {
   from {
-    top: -150px;
+    top: 0vw;
     transform: rotate(0deg);
   }
   to {
-    top: 650px;
+    top: 45.139vw;
     transform: rotate(360deg);
   }
 }
@@ -185,4 +185,257 @@
 }
 .star2 {
   animation: star2 1.5s ease-out infinite;
+}
+
+@keyframes swap {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  20.01% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.frame {
+  animation: swap 5s steps(1, end) infinite;
+}
+
+.frame1 {
+  animation-delay: 0s;
+}
+.frame2 {
+  animation-delay: 1s;
+}
+.frame3 {
+  animation-delay: 2s;
+}
+.frame4 {
+  animation-delay: 3s;
+}
+.frame5 {
+  animation-delay: 4s;
+}
+
+.saletext {
+  animation: swap 5s steps(1, end) infinite;
+}
+
+.saletext1 {
+  animation-delay: 0s;
+}
+.saletext2 {
+  animation-delay: 1s;
+}
+.saletext3 {
+  animation-delay: 2s;
+}
+.saletext4 {
+  animation-delay: 3s;
+}
+.saletext5 {
+  animation-delay: 4s;
+}
+
+.banki1,
+.banki2,
+.banki3,
+.banki4,
+.vsebanki {
+  opacity: 0;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes banki1 {
+  0%,
+  15% {
+    opacity: 1;
+  }
+  15.01%,
+  100% {
+    opacity: 0;
+  }
+}
+.banki1 {
+  animation-name: banki1;
+}
+
+@keyframes banki2 {
+  0%,
+  15% {
+    opacity: 0;
+  }
+  15.01%,
+  30% {
+    opacity: 1;
+  }
+  30.01%,
+  100% {
+    opacity: 0;
+  }
+}
+.banki2 {
+  animation-name: banki2;
+}
+
+@keyframes banki3 {
+  0%,
+  30% {
+    opacity: 0;
+  }
+  30.01%,
+  45% {
+    opacity: 1;
+  }
+  45.01%,
+  100% {
+    opacity: 0;
+  }
+}
+.banki3 {
+  animation-name: banki3;
+}
+
+@keyframes banki4 {
+  0%,
+  45% {
+    opacity: 0;
+  }
+  45.01%,
+  60% {
+    opacity: 1;
+  }
+  60.01%,
+  100% {
+    opacity: 0;
+  }
+}
+.banki4 {
+  animation-name: banki4;
+}
+
+@keyframes vsebanki {
+  0%,
+  60% {
+    opacity: 0;
+  }
+  60.01%,
+  100% {
+    opacity: 1;
+  }
+}
+
+.vsebanki {
+  animation-name: vsebanki;
+  z-index: 10;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(11vw);
+  }
+  100% {
+    transform: translateY(-1vw);
+  }
+}
+
+.products {
+  animation: floatUpDown 2s ease-in-out infinite alternate;
+}
+
+@keyframes kadr {
+  0%,
+  24.99% {
+    opacity: 1;
+  }
+  25%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.kadr1,
+.kadr2,
+.kadr3,
+.kadr4 {
+  animation: kadr 4s infinite;
+  will-change: opacity;
+}
+.kadr1 {
+  animation-delay: 0s;
+}
+.kadr2 {
+  animation-delay: 1s;
+}
+.kadr3 {
+  animation-delay: 2s;
+}
+.kadr4 {
+  animation-delay: 3s;
+}
+
+@keyframes drop {
+  from {
+    top: 0vw;
+    transform: rotate(0deg);
+  }
+  to {
+    top: 45.139vw;
+    transform: rotate(360deg);
+  }
+}
+
+.el1 {
+  animation-name: drop;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.el2 {
+  animation-name: drop;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.el3 {
+  animation-name: drop;
+  animation-duration: 14s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.el4 {
+  animation-name: drop;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.el5 {
+  animation-name: drop;
+  animation-duration: 12s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.el6 {
+  animation-name: drop;
+  animation-duration: 9s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.el7 {
+  animation-name: drop;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }

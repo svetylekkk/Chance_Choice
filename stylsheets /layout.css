@@ -18,17 +18,17 @@ html {
 }
 
 .section-1 {
-  width: 100%;
+  width: 100vw;
   height: 39.4vw;
   overflow: hidden;
   background-color: #ea7d9c;
 }
 
 .container-1 {
-  width: 100%;
+  width: 100vw;
   height: 39.4vw;
   position: relative;
-  max-width: 100%;
+  max-width: 100vw;
   top: 0;
   overflow: hidden;
   z-index: 2;
@@ -136,14 +136,14 @@ html {
 }
 
 .section-2 {
-  width: 100%;
+  width: 100vw;
   height: 17.5vw;
   background-color: #f4e4c3;
 }
 
 .liner_product {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 12.8vw;
   background-image: url(../images/liner_product.svg);
   top: 3vw;
@@ -155,7 +155,7 @@ html {
 .box1 {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 100vw;
   height: 57vw;
 }
 .section-3 {
@@ -290,23 +290,98 @@ html {
 .sale {
   width: 62vw;
   height: 28vw;
-  position: relative;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
+.sale-slider {
+  position: relative;
+  width: 62vw;
+  height: 28vw;
+  overflow: hidden;
+  display: flex;
+}
+.sale-card {
+  position: absolute;
+  inset: 0;
+}
+.frame {
+  position: absolute;
+  width: 62vw;
+  height: 28vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.frame1 {
+  width: 62vw;
+  height: 28vw;
+  background-image: url(../images/frame1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.frame2 {
+  width: 62vw;
+  height: 28vw;
+  background-image: url(../images/frame2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.frame3 {
+  width: 62vw;
+  height: 28vw;
+  background-image: url(../images/frame3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.frame4 {
+  width: 62vw;
+  height: 28vw;
+  background-image: url(../images/frame4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.frame5 {
+  width: 62vw;
+  height: 28vw;
+  background-image: url(../images/frame5.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .saletext {
+  position: relative;
   font-size: 17vw;
   font-family: "Marvin Visions";
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.saletext1 {
   color: #e3562b;
-  margin: auto;
-  display: inline-block;
-  position: relative;
+}
+.saletext2 {
+  color: #f4e4c3;
+}
+.saletext3 {
+  color: #2ca66c;
+}
+.saletext4 {
+  color: #ea7d9c;
+}
+.saletext5 {
+  color: #f4e4c3;
 }
 .box3 {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 100vw;
   height: 57vw;
 }
 .section-5 {
@@ -320,6 +395,46 @@ html {
   align-items: center;
 }
 
+.banki1 {
+  position: absolute;
+  width: 54.1vw;
+  height: 48.9vw;
+  background-image: url(../images/pinkbanki.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.banki2 {
+  position: absolute;
+  width: 34.7vw;
+  height: 48.9vw;
+  background-image: url(../images/orangebanki.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.banki3 {
+  position: absolute;
+  width: 17.8vw;
+  height: 50.8vw;
+  background-image: url(../images/redbanki.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.banki4 {
+  position: absolute;
+  width: 54vw;
+  height: 50.8vw;
+  background-image: url(../images/greenbanki.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.vsebanki {
+  position: absolute;
+  width: 54.1vw;
+  height: 50.8vw;
+  background-image: url(../images/vsebanki.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .section-6 {
   position: relative;
   display: flex;
@@ -327,4 +442,303 @@ html {
   width: 40vw;
   height: 57vw;
   background-color: #ea7d9c;
+}
+.paket {
+  position: absolute;
+  width: 28.4vw;
+  height: 33.8vw;
+  background-image: url(../images/packet.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 23.3vw;
+  left: 7.5vw;
+  z-index: 2;
+}
+.products {
+  position: absolute;
+  width: 33.194vw;
+  height: 20.347vw;
+  top: 15vw;
+  left: 6.1vw;
+  background-image: url(../images/products.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.textpak {
+  position: absolute;
+  font-size: 7.5vw;
+  font-family: "Marvin Visions";
+  color: #f4e4c3;
+  z-index: 3;
+  left: 16.2vw;
+  top: 36vw;
+}
+.box4 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 28.3vw;
+}
+.section-7 {
+  position: relative;
+  width: 36.5vw;
+  height: 28.3vw;
+  overflow: hidden;
+  background-color: #ea7d9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cassa {
+  position: absolute;
+  height: 20.486vw;
+  width: 36.6vw;
+  background-image: url(../images/cassa.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.nombers {
+  position: absolute;
+  font-size: 4.4vw;
+  font-family: "Marvin Visions";
+  color: #f4e4c3;
+  top: 14.8vw;
+  left: 10vw;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  position: absolute;
+  font-size: 2.2vw;
+  font-family: "Marvin Visions";
+  color: #f4e4c3;
+}
+
+.one {
+  left: 22.3vw;
+}
+.two {
+  left: 25.4vw;
+}
+.three {
+  left: 28.7vw;
+}
+.four {
+  left: 21.9vw;
+}
+.five {
+  left: 25.4vw;
+}
+.six {
+  left: 28.7vw;
+}
+.one,
+.two,
+.three {
+  top: 14.29vw;
+}
+.four,
+.five,
+.six {
+  top: 17vw;
+}
+.section-8 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 63.5vw;
+  height: 28.3vw;
+  background-color: #f79c05;
+  justify-content: center;
+  align-items: center;
+}
+
+.kadr1 {
+  background-image: url(../images/kadr1.svg);
+}
+.kadr2 {
+  background-image: url(../images/kadr2.svg);
+}
+.kadr3 {
+  background-image: url(../images/kadr3.svg);
+}
+.kadr4 {
+  background-image: url(../images/kadr4.svg);
+}
+
+.kadr1,
+.kadr2,
+.kadr3,
+.kadr4 {
+  position: absolute;
+  width: 46.806vw;
+  height: 15.972vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box5 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 57vw;
+}
+
+.section-9 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 60.8vw;
+  height: 57vw;
+  background-color: #e3562b;
+  justify-content: center;
+  align-items: center;
+}
+.coleso {
+  width: 49.7vw;
+  height: 46.5vw;
+  background-image: url(../images/coleso.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.treug {
+  position: absolute;
+  width: 7.9vw;
+  height: 6.7vw;
+  background-image: url(../images/treug.svg);
+  top: 5.3vw;
+  left: 24.49vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.skid,
+.ideas,
+.fate,
+.cute {
+  position: absolute;
+  font-size: 3vw;
+  font-family: "Marvin Visions";
+  color: #f4e4c3;
+}
+.ideas {
+  left: 10vw;
+}
+.fate {
+  left: 38.5vw;
+}
+.skid {
+  transform: rotate(-90deg);
+  top: 13vw;
+  left: 23.5vw;
+}
+.cute {
+  transform: rotate(-90deg);
+  left: 23.5vw;
+  top: 41vw;
+}
+.section-10 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 39.2vw;
+  height: 57vw;
+  background-color: #2ca66c;
+}
+
+.avoska {
+  position: absolute;
+  width: 39vw;
+  height: 52.847vw;
+  top: 12vw;
+  background-image: url(../images/avoska.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.el1,
+.el2,
+.el3,
+.el4,
+.el5,
+.el6,
+.el7 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.el1 {
+  width: 7.9vw;
+  height: 7.9vw;
+  left: 10vw;
+  top: 10vw;
+  background-image: url(../images/el1.svg);
+}
+.el2 {
+  width: 6.181vw;
+  height: 6.181vw;
+  left: 21vw;
+  top: 24vw;
+  background-image: url(../images/el2.svg);
+}
+.el3 {
+  width: 8.1vw;
+  height: 8.1vw;
+  left: 3vw;
+  top: 39vw;
+  background-image: url(../images/el3.svg);
+}
+.el4 {
+  width: 9.1vw;
+  height: 9.1vw;
+  left: 15vw;
+  top: 40vw;
+  background-image: url(../images/el4.svg);
+}
+.el5 {
+  width: 7.1vw;
+  height: 7.1vw;
+  left: 9vw;
+  top: 32vw;
+  background-image: url(../images/el5.svg);
+}
+.el6 {
+  width: 14.2vw;
+  height: 14.2vw;
+  left: 4vw;
+  background-image: url(../images/el6.svg);
+}
+.el7 {
+  width: 9.8vw;
+  height: 9.8vw;
+  left: 21vw;
+  background-image: url(../images/el7.svg);
+}
+.section-11 {
+  position: relative;
+  width: 100vw;
+  height: 11.3vw;
+  background-color: #f4e4c3;
+}
+.myname {
+  position: absolute;
+  font-size: 3.3vw;
+  font-family: "Marvin Visions";
+  color: #e3562b;
+  text-align: end;
+  left: 67vw;
+  top: 1.3vw;
+}
+.hse {
+  position: absolute;
+  width: 21vw;
+  height: 8.75vw;
+  background-image: url(../images/hselogo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 1.3vw;
+  left: 2vw;
 }
