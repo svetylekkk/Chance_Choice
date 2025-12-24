@@ -293,9 +293,6 @@ html {
   position: relative;
   display: flex;
   flex-direction: row;
-  background-color: #f4e4c3;
-  border: 2vw solid #e3562b;
-  border-radius: 0.5vw;
 }
 
 .saletext {
