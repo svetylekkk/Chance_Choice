@@ -42,6 +42,8 @@ html {
   height: 39.4vw;
   background-image: url(../images/star_1.svg);
   left: 80.3vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .star_2 {
@@ -50,6 +52,7 @@ html {
   height: 39.4vw;
   background-image: url(../images/star_2.svg);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .bottle1 {
@@ -153,7 +156,7 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 39.4vw;
+  height: 57vw;
 }
 .section-3 {
   position: relative;
@@ -193,6 +196,18 @@ html {
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 2;
+}
+
+.chps {
+  position: absolute;
+  width: 20vw;
+  height: 39vw;
+  background-image: url(../images/chps.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 3;
+  left: 11vw;
+  top: 13vw;
 }
 
 .section-4 {
@@ -301,11 +316,15 @@ html {
   position: relative;
   width: 60vw;
   height: 57vw;
+  overflow: hidden;
   background-color: #f4e4c3;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-6 {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 40vw;
