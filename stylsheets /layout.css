@@ -209,7 +209,15 @@ html {
   left: 11vw;
   top: 13vw;
 }
-
+.prdcs {
+  position: absolute;
+  width: 20.486vw;
+  height: 27.986vw;
+  background-image: url(../images/prdcs.svg);
+  z-index: 4;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .section-4 {
   position: relative;
   display: flex;
@@ -223,13 +231,16 @@ html {
   align-items: flex-start;
   width: 62vw;
   height: 31vw;
+  overflow: hidden;
 }
 
 .dice_pink {
+  position: relative;
   width: 32vw;
   height: 30vw;
   flex-shrink: 0;
   background-color: #2ca66c;
+  overflow: hidden;
 }
 .dice_pink_svg {
   width: 14.5vw;
@@ -312,42 +323,42 @@ html {
 }
 .frame {
   position: absolute;
-  width: 62vw;
+  width: 63vw;
   height: 28vw;
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 1;
 }
 .frame1 {
-  width: 62vw;
+  width: 63vw;
   height: 28vw;
   background-image: url(../images/frame1.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .frame2 {
-  width: 62vw;
+  width: 63vw;
   height: 28vw;
   background-image: url(../images/frame2.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .frame3 {
-  width: 62vw;
+  width: 63vw;
   height: 28vw;
   background-image: url(../images/frame3.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .frame4 {
-  width: 62vw;
+  width: 63vw;
   height: 28vw;
   background-image: url(../images/frame4.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .frame5 {
-  width: 62vw;
+  width: 63vw;
   height: 28vw;
   background-image: url(../images/frame5.svg);
   background-repeat: no-repeat;
@@ -357,7 +368,7 @@ html {
   position: relative;
   font-size: 17vw;
   font-family: "Marvin Visions";
-  height: 100vw;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -504,7 +515,7 @@ html {
   font-family: "Marvin Visions";
   color: #f4e4c3;
   top: 14.8vw;
-  left: 10vw;
+  left: 12vw;
 }
 .one,
 .two,
@@ -599,7 +610,8 @@ html {
   align-items: center;
 }
 .coleso {
-  width: 49.7vw;
+  position: relative;
+  width: 46.5vw;
   height: 46.5vw;
   background-image: url(../images/coleso.svg);
   background-repeat: no-repeat;
@@ -611,7 +623,7 @@ html {
   height: 6.7vw;
   background-image: url(../images/treug.svg);
   top: 5.3vw;
-  left: 24.49vw;
+  left: 26.3vw;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -625,20 +637,22 @@ html {
   color: #f4e4c3;
 }
 .ideas {
-  left: 10vw;
+  left: 7.3vw;
+  top: 21.6vw;
 }
 .fate {
-  left: 38.5vw;
+  left: 33vw;
+  top: 21.5vw;
 }
 .skid {
   transform: rotate(-90deg);
-  top: 13vw;
-  left: 23.5vw;
+  top: 8vw;
+  left: 18.8vw;
 }
 .cute {
   transform: rotate(-90deg);
-  left: 23.5vw;
-  top: 41vw;
+  left: 18.8vw;
+  top: 37vw;
 }
 .section-10 {
   position: relative;
@@ -653,7 +667,7 @@ html {
   position: absolute;
   width: 39vw;
   height: 52.847vw;
-  top: 12vw;
+  top: 12.1vw;
   background-image: url(../images/avoska.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -680,7 +694,7 @@ html {
 .el2 {
   width: 6.181vw;
   height: 6.181vw;
-  left: 21vw;
+  left: 6vw;
   top: 24vw;
   background-image: url(../images/el2.svg);
 }
@@ -714,7 +728,7 @@ html {
 .el7 {
   width: 9.8vw;
   height: 9.8vw;
-  left: 21vw;
+  left: 13vw;
   background-image: url(../images/el7.svg);
 }
 .section-11 {
@@ -730,7 +744,7 @@ html {
   color: #e3562b;
   text-align: end;
   left: 67vw;
-  top: 1.3vw;
+  top: 2.5vw;
 }
 .hse {
   position: absolute;

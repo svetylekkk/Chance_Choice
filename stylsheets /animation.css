@@ -108,6 +108,27 @@
 .liner_product {
   animation: conveyor 12s linear infinite;
 }
+chps {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease;
+}
+
+.prdcs {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.section-3:hover .chps {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.section-3:hover .prdcs {
+  opacity: 1;
+  visibility: visible;
+}
 
 @keyframes spin {
   from {
@@ -115,6 +136,28 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.dice_pink_svg {
+  animation: floatRotate 2s infinite linear;
+}
+
+@keyframes floatRotate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(6.5vw) rotate(90deg);
+  }
+  50% {
+    transform: translateY(0) rotate(180deg);
+  }
+  75% {
+    transform: translateY(-6.5vw) rotate(270deg);
+  }
+  100% {
+    transform: translateY(0) rotate(360deg);
   }
 }
 
@@ -378,6 +421,32 @@
 .kadr4 {
   animation-delay: 3s;
 }
+.nombers::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 4.4vw;
+  color: #f4e4c3;
+}
+.one:hover ~ .nombers::after {
+  content: "1";
+}
+.two:hover ~ .nombers::after {
+  content: "2";
+}
+.three:hover ~ .nombers::after {
+  content: "3";
+}
+.four:hover ~ .nombers::after {
+  content: "4";
+}
+.five:hover ~ .nombers::after {
+  content: "5";
+}
+.six:hover ~ .nombers::after {
+  content: "6";
+}
 
 @keyframes drop {
   from {
@@ -438,4 +507,25 @@
   animation-delay: 0s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+.coleso {
+  transition: transform 1s ease;
+  transform-origin: center center;
+}
+
+.section-9:hover .coleso {
+  transform: rotate(360deg);
+}
+.textrot {
+  position: absolute;
+  transform-origin: center center; /* вращается вместе с колесом */
+}
+
+.text-wrapper p {
+  margin: 0;
+  font-size: 3vw;
+  font-family: "Marvin Visions";
+  color: #f4e4c3;
+  transform: rotate(-90deg); /* наклон текста отдельно от вращения колеса */
 }
