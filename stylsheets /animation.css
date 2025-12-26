@@ -28,6 +28,8 @@
   animation: star_1 8s ease-out infinite;
 }
 
+/* падающие элементы */
+
 @keyframes fall {
   from {
     top: 0vw;
@@ -104,11 +106,12 @@
     background-position: -1440px 0;
   }
 }
-
+/* лента */
 .liner_product {
   animation: conveyor 12s linear infinite;
 }
-chps {
+/* анимация в корзинке */
+.chps {
   opacity: 1;
   visibility: visible;
   transition: opacity 0.3s ease;
@@ -129,7 +132,7 @@ chps {
   opacity: 1;
   visibility: visible;
 }
-
+/* анимация кубика */
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -160,7 +163,7 @@ chps {
     transform: translateY(0) rotate(360deg);
   }
 }
-
+/* смена фишек */
 @keyframes chipSwap {
   0% {
     opacity: 1;
@@ -229,7 +232,7 @@ chps {
 .star2 {
   animation: star2 1.5s ease-out infinite;
 }
-
+/* смена скидок */
 @keyframes swap {
   0% {
     opacity: 1;
@@ -283,7 +286,7 @@ chps {
 .saletext5 {
   animation-delay: 4s;
 }
-
+/* баночки */
 .banki1,
 .banki2,
 .banki3,
@@ -378,7 +381,9 @@ chps {
   z-index: 10;
 }
 
-@keyframes floatUpDown {
+/* выезжающие продукты */
+
+@keyframes products {
   0% {
     transform: translateY(11vw);
   }
@@ -388,8 +393,10 @@ chps {
 }
 
 .products {
-  animation: floatUpDown 2s ease-in-out infinite alternate;
+  animation: products 2s ease-in-out infinite alternate;
 }
+
+/* шашлычок */
 
 @keyframes kadr {
   0%,
@@ -421,6 +428,9 @@ chps {
 .kadr4 {
   animation-delay: 3s;
 }
+
+/* цифры на весах */
+
 .nombers::after {
   content: "";
   position: absolute;
@@ -447,6 +457,8 @@ chps {
 .six:hover ~ .nombers::after {
   content: "6";
 }
+
+/* падающие элементы */
 
 @keyframes drop {
   from {
@@ -509,6 +521,8 @@ chps {
   animation-iteration-count: infinite;
 }
 
+/* колесо фортуны */
+
 .coleso {
   transition: transform 1s ease;
   transform-origin: center center;
@@ -519,7 +533,7 @@ chps {
 }
 .textrot {
   position: absolute;
-  transform-origin: center center; /* вращается вместе с колесом */
+  transform-origin: center center;
 }
 
 .text-wrapper p {
@@ -527,5 +541,5 @@ chps {
   font-size: 3vw;
   font-family: "Marvin Visions";
   color: #f4e4c3;
-  transform: rotate(-90deg); /* наклон текста отдельно от вращения колеса */
+  transform: rotate(-90deg);
 }

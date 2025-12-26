@@ -1,4 +1,564 @@
+/* планшет */
 @media screen and (max-width: 1023px) {
+  /* секция 1 */
+  .section-1 {
+    height: 116vw;
+  }
+  .container-1 {
+    height: 116vw;
+  }
+
+  .star_1 {
+    top: 38vw;
+  }
+
+  .star_2 {
+    top: 38vw;
+  }
+  .bottle1 {
+    width: 14vw;
+    height: 16vw;
+  }
+  .bread1 {
+    width: 28vw;
+    height: 32vw;
+  }
+  .bread2 {
+    width: 26vw;
+    height: 28vw;
+  }
+  .chip1 {
+    width: 8vw;
+    height: 8vw;
+  }
+  .chip2 {
+    width: 10vw;
+    height: 10vw;
+  }
+  .chip3 {
+    width: 11vw;
+    height: 11vw;
+  }
+  .chip4 {
+    width: 9vw;
+    height: 9vw;
+  }
+  .dice {
+    width: 14vw;
+    height: 18vw;
+  }
+
+  @keyframes fall {
+    from {
+      top: 0vw;
+      transform: rotate(0deg);
+    }
+    to {
+      top: 116vw;
+      transform: rotate(360deg);
+    }
+  }
+
+  /* секция 3 */
+
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 183vw;
+  }
+
+  .section-3 {
+    width: 100vw;
+    height: 89.4vw;
+  }
+  .star1 {
+    width: 35vw;
+    height: 35vw;
+    top: 55vw;
+    right: 65vw;
+  }
+  .star2 {
+    width: 35vw;
+    height: 35vw;
+    left: 65vw;
+    bottom: 54vw;
+  }
+  .corza {
+    width: 63.4vw;
+    height: 76vw;
+    transform: rotate(-90deg);
+  }
+
+  .chps {
+    width: 38.9vw;
+    height: 51.9vw;
+    left: 30vw;
+    top: 16vw;
+    transform: rotate(-90deg);
+  }
+  .prdcs {
+    width: 47.5vw;
+    height: 47.5vw;
+    z-index: 4;
+    transform: rotate(-90deg);
+    left: 26vw;
+    top: 12vw;
+  }
+
+  .section-4 {
+    height: 94vw;
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100vw;
+    height: 50vw;
+    overflow: hidden;
+    order: 2;
+  }
+
+  .dice_pink {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .dice_pink_svg {
+    width: 24vw;
+    height: 28vw;
+    background-image: url(../images/dice_pink_svg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  @keyframes floatRotate {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateY(12vw) rotate(90deg);
+    }
+    50% {
+      transform: translateY(0) rotate(180deg);
+    }
+    75% {
+      transform: translateY(-12vw) rotate(270deg);
+    }
+    100% {
+      transform: translateY(0) rotate(360deg);
+    }
+  }
+  .chipstar {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .chipstar01 {
+    width: 40vw;
+    height: 40vw;
+  }
+  .chipstar02 {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .chipstar01,
+  .chipstar01-01,
+  .chipstar01-02 {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+  }
+  .sale {
+    width: 100vw;
+    height: 44vw;
+  }
+  .sale-slider {
+    width: 100vw;
+    height: 44vw;
+  }
+  .frame {
+    width: 100vw;
+    height: 45vw;
+  }
+  .saletext {
+    font-size: 25vw;
+  }
+
+  .box4 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 122vw;
+  }
+  .section-7 {
+    position: relative;
+    width: 100vw;
+    height: 77.6vw;
+    background-color: #ea7d9c;
+    order: 2;
+  }
+  .cassa {
+    height: 56vw;
+    width: 100vw;
+  }
+  .nombers {
+    position: absolute;
+    font-size: 12vw;
+    top: 40vw;
+    left: 33vw;
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
+    font-size: 6vw;
+  }
+
+  .one {
+    left: 61vw;
+  }
+  .two {
+    left: 69.5vw;
+  }
+  .three {
+    left: 78.6vw;
+  }
+  .four {
+    left: 60vw;
+  }
+  .five {
+    left: 69.6vw;
+  }
+  .six {
+    left: 78.6vw;
+  }
+  .one,
+  .two,
+  .three {
+    top: 39.29vw;
+  }
+  .four,
+  .five,
+  .six {
+    top: 47vw;
+  }
+  .nombers::after {
+    font-size: 12vw;
+  }
+  .section-8 {
+    width: 100vw;
+    height: 44.4vw;
+    order: 1;
+  }
+  .kadr1,
+  .kadr2,
+  .kadr3,
+  .kadr4 {
+    width: 84vw;
+    height: 28.7vw;
+  }
 }
+
+/* для мобильных устройств */
 @media screen and (max-width: 767px) {
+  .section-1 {
+    height: 180vw;
+  }
+  .container-1 {
+    height: 180vw;
+  }
+  .star_1 {
+    top: 71vw;
+  }
+  .star_2 {
+    top: 71vw;
+  }
+
+  .bottle1 {
+    width: 14vw;
+    height: 16vw;
+  }
+  .bread1 {
+    width: 30vw;
+    height: 32vw;
+  }
+  .bread2 {
+    width: 29vw;
+    height: 29vw;
+  }
+  .chip1 {
+    width: 8vw;
+    height: 8vw;
+  }
+  .chip2 {
+    width: 10vw;
+    height: 10vw;
+  }
+  .chip3 {
+    width: 11vw;
+    height: 11vw;
+  }
+  .chip4 {
+    width: 9vw;
+    height: 9vw;
+  }
+  .dice {
+    width: 14vw;
+    height: 18vw;
+  }
+  .section-2 {
+    height: 28vw;
+  }
+  .liner_product {
+    width: 100vw;
+    height: 19vw;
+    top: 6vw;
+  }
+  .box1 {
+    flex-direction: column;
+    height: 224vw;
+  }
+  .section-3 {
+    width: 100vw;
+    height: 134vw;
+  }
+  .star1 {
+    width: 35vw;
+    height: 35vw;
+    top: 95vw;
+    left: 0;
+  }
+  .star2 {
+    width: 35vw;
+    height: 35vw;
+    top: 0;
+  }
+  .corza {
+    width: 80vw;
+    height: 95vw;
+    transform: rotate(0deg);
+  }
+  .chps {
+    width: 50vw;
+    height: 65vw;
+    left: 30vw;
+    top: 33vw;
+    transform: rotate(0deg);
+  }
+  .prdcs {
+    width: 57vw;
+    height: 66vw;
+    top: 32vw;
+    left: 28vw;
+    transform: rotate(0deg);
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 204vw;
+  }
+  .section-5 {
+    width: 100vw;
+    height: 84vw;
+  }
+  .banki1 {
+    width: 80vw;
+    height: 78vw;
+    left: 9.7vw;
+    top: 5vw;
+  }
+  .banki2 {
+    width: 80vw;
+    height: 78vw;
+    left: 21.5vw;
+  }
+  .banki3 {
+    width: 80vw;
+    height: 78vw;
+    left: 36vw;
+    top: 3vw;
+  }
+  .banki4 {
+    width: 80vw;
+    height: 78vw;
+  }
+  .vsebanki {
+    width: 80vw;
+    height: 78vw;
+  }
+  .section-6 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 120.5vw;
+    background-color: #ea7d9c;
+  }
+  .paket {
+    width: 70vw;
+    height: 71.3vw;
+    top: 48.9vw;
+    left: 18.5vw;
+  }
+  .products {
+    width: 66.194vw;
+    height: 46.347vw;
+    top: 32vw;
+    left: 17vw;
+  }
+  .textpak {
+    font-size: 19vw;
+    left: 35vw;
+    top: 74.5vw;
+  }
+  @keyframes products {
+    0% {
+      transform: translateY(19.5vw);
+    }
+    100% {
+      transform: translateY(-1vw);
+    }
+  }
+  .box5 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 209vw;
+  }
+  .section-9 {
+    width: 100vw;
+    height: 85.2vw;
+  }
+  .coleso {
+    width: 70vw;
+    height: 70vw;
+  }
+  .treug {
+    width: 12vw;
+    height: 10vw;
+    top: 7.5vw;
+    left: 44vw;
+  }
+  .skid,
+  .ideas,
+  .fate,
+  .cute {
+    font-size: 5vw;
+  }
+  .ideas {
+    left: 7.3vw;
+    top: 32vw;
+  }
+  .fate {
+    left: 49vw;
+    top: 32vw;
+  }
+  .skid {
+    top: 9vw;
+    left: 28vw;
+  }
+  .cute {
+    left: 28vw;
+    top: 54vw;
+  }
+  .section-10 {
+    width: 100vw;
+    height: 124vw;
+  }
+
+  .avoska {
+    width: 95vw;
+    height: 109.8vw;
+    top: 14.2vw;
+  }
+  .el1 {
+    width: 13vw;
+    height: 13vw;
+    left: 32vw;
+  }
+  .el2 {
+    width: 12vw;
+    height: 12vw;
+    left: 16vw;
+  }
+  .el3 {
+    width: 27vw;
+    height: 21vw;
+    left: 3vw;
+  }
+  .el4 {
+    width: 16.1vw;
+    height: 15.1vw;
+    left: 41vw;
+  }
+  .el5 {
+    width: 13.1vw;
+    height: 18.1vw;
+    left: 8vw;
+  }
+  .el6 {
+    width: 14.2vw;
+    height: 14.2vw;
+    left: 4vw;
+  }
+  .el7 {
+    width: 19vw;
+    height: 19vw;
+    left: 23vw;
+  }
+  @keyframes drop {
+    from {
+      top: 0vw;
+      transform: rotate(0deg);
+    }
+    to {
+      top: 124vw;
+      transform: rotate(360deg);
+    }
+  }
+
+  .el1 {
+    animation-duration: 6s;
+  }
+  .el2 {
+    animation-duration: 3s;
+  }
+  .el3 {
+    animation-duration: 13s;
+  }
+  .el4 {
+    animation-duration: 3s;
+  }
+  .el5 {
+    animation-duration: 11s;
+  }
+  .el6 {
+    animation-duration: 8s;
+  }
+  .el7 {
+    animation-duration: 5s;
+  }
+  .section-11 {
+    width: 100vw;
+    height: 50vw;
+  }
+  .myname {
+    font-size: 8vw;
+    text-align: start;
+    left: 3vw;
+    top: 3vw;
+  }
+  .hse {
+    width: 47vw;
+    height: 22vw;
+    top: 27vw;
+    left: 2vw;
+  }
+
+  /* конец мобилки */
 }
