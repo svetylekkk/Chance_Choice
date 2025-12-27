@@ -1,6 +1,5 @@
 /* планшет */
 @media screen and (max-width: 1023px) {
-  /* секция 1 */
   .section-1 {
     height: 116vw;
   }
@@ -58,8 +57,6 @@
       transform: rotate(360deg);
     }
   }
-
-  /* секция 3 */
 
   .box1 {
     display: flex;
@@ -188,13 +185,11 @@
   }
 
   .box4 {
-    display: flex;
     flex-direction: column;
     width: 100vw;
     height: 122vw;
   }
   .section-7 {
-    position: relative;
     width: 100vw;
     height: 77.6vw;
     background-color: #ea7d9c;
@@ -358,7 +353,6 @@
     transform: rotate(0deg);
   }
   .box {
-    display: flex;
     flex-direction: column;
     width: 100vw;
     height: 204vw;
@@ -393,11 +387,9 @@
     height: 78vw;
   }
   .section-6 {
-    display: flex;
     flex-direction: column;
     width: 100vw;
     height: 120.5vw;
-    background-color: #ea7d9c;
   }
   .paket {
     width: 70vw;
